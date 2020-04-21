@@ -1,0 +1,23 @@
+//META{"name":"Forest Blue","description":"A theme based on blue color and a beautiful forest background-stablerelease. Works very well with the Modern Indicator and Radial Status themes. This is a modification of Ruben7173's Forest Green theme, go check it out! I had to dig through hundreds of lines of code just to change a few colors, so I hope you enjoy this.","author":"Epsilore, Ruben7173","version":"1.0"}*// {}
+
+/* imports code and transparency module */
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
+@import url(https://raw.githubusercontent.com/Epsilore/blueforest/master/code);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/Windows-Activity-buttons.css);
+
+:root {
+	/* background image URL */
+	--background-image: url('https://media.discordapp.net/attachments/694834786056798278/701966603734220860/big_hot.png?width=1084&height=677') center/cover no-repeat;
+	/* Transparency */
+    --transparency-level: rgba(0,0,0,0.10); 
+	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
+	--transparency-level-top: rgba(0,0,0,0.34);
+	/* ESC Button color at settings */
+	--ESC-Button-color: rgba(43, 99, 57, 0.9);
+	/* transparency of settings page */
+	--transparency-settings: rgba(0,0,0,0.2);
+	/* Green color of discord logo background and public button */
+	--background-discord-public-color: #1e672d;
+}
+
+/* any other code write below */
